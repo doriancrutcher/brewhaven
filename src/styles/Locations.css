@@ -1,6 +1,7 @@
 .locations-page {
   background-color: #212529;
   min-height: 100vh;
+  color: #fff;
 }
 
 .locations-hero {
@@ -46,6 +47,10 @@
   margin-bottom: 1rem;
   border-bottom: 2px solid #454d55;
   padding-bottom: 0.5rem;
+}
+
+.location-title{
+  color: #fff !important;
 }
 
 .location-info p {
