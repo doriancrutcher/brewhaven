@@ -1,0 +1,72 @@
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+  opacity: 0;
+  animation: cardFadeIn 1s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card-image {
+  height: 200px; /* Reduced height to fit better in row */
+  object-fit: cover;
+  width: 100%;
+}
+
+.menu-card-body {
+  padding: 1.25rem; /* Slightly reduced padding */
+  background-color: #3f3f3f;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-card-title {
+  font-size: 1.25rem; /* Slightly smaller font */
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+}
+
+.menu-card-text {
+  color: rgb(230, 230, 230);
+  line-height: 1.4;
+  font-size: 0.9rem; /* Slightly smaller font */
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .menu-card {
+    margin-bottom: 2rem;
+  }
+  
+  .menu-card-image {
+    height: 250px; /* Larger images on mobile */
+  }
+  
+  .menu-card-title {
+    font-size: 1.5rem; /* Larger titles on mobile */
+  }
+  
+  .menu-card-text {
+    font-size: 1rem; /* Larger text on mobile */
+  }
+} 
