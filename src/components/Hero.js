@@ -34,7 +34,7 @@ function Hero() {
       clearTimeout(fadeOutTimer);
       clearTimeout(rotationTimer);
     };
-  }, []);
+  }, [currentImageIndex, images.length]);
 
   useEffect(() => {
     if (currentImageIndex > 0 && currentImageIndex < images.length - 1) {
