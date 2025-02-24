@@ -67,11 +67,16 @@
 }
 
 @media (max-width: 768px) {
+  .menu-hero {
+    padding: 2rem 1rem;
+  }
+  
   .menu-hero h1 {
     font-size: 2rem;
   }
   
   .section-title {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 } 

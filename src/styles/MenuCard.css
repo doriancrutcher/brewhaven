@@ -58,18 +58,18 @@
 
 @media (max-width: 768px) {
   .menu-card {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   
   .menu-card-image {
-    height: 250px; /* Larger images on mobile */
+    height: 175px;
   }
   
   .menu-card-title {
-    font-size: 1.5rem; /* Larger titles on mobile */
+    font-size: 1.25rem;
   }
   
   .menu-card-text {
-    font-size: 1rem; /* Larger text on mobile */
+    font-size: 0.9rem;
   }
 } 
