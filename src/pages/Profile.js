@@ -8,7 +8,7 @@ function Profile() {
     name: 'John Doe',
     email: 'john.doe@example.com',
     phone: '(123) 456-7890',
-    preferredLocation: 'Brew Haven Downtown'
+    preferredLocation: 'Mystic Mugs Downtown'
   });
 
   // Sample order history
@@ -93,9 +93,9 @@ function Profile() {
                       disabled={!editMode}
                       onChange={(e) => setUserInfo({...userInfo, preferredLocation: e.target.value})}
                     >
-                      <option>Brew Haven Downtown</option>
-                      <option>Brew Haven Santa Monica</option>
-                      <option>Brew Haven Beverly Hills</option>
+                      <option>Mystic Mugs Downtown</option>
+                      <option>Mystic Mugs Santa Monica</option>
+                      <option>Mystic Mugs Beverly Hills</option>
                     </Form.Select>
                   </Form.Group>
                   

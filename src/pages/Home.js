@@ -15,7 +15,7 @@ function Home() {
             <MenuCard
               image="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               header="We're Here for Your Events"
-              description="At Coffee Haven we Can Offer Our Space for Your Special Occasions.. Just Give us a Call!"
+              description="At Mystic Mugs, we can offer our space for your special occasions. Just give us a call!"
             />
             </Link>
           </Col>
@@ -23,7 +23,7 @@ function Home() {
           <Link to="/menu" style={{ textDecoration: 'none' }}>
             <MenuCard
               image="https://images.unsplash.com/photo-1535662981753-4a2258f677e9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              header="Come see what's on the menu"
+              header="Come See What's On The Menu"
               description="Check out our menu to see what we have to offer!"
             />
             </Link>

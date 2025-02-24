@@ -8,7 +8,7 @@ function CustomNavbar() {
       <Container>
         <Navbar.Brand as={Link} to="/" className="text-light">
           <img
-            src="https://i.imgur.com/Q7LEpMT.png"
+            src="https://i.imgur.com/xcKxwNJ.png"
             height="40"
             className="d-inline-block align-top"
             alt="Brew Haven Logo"

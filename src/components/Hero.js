@@ -11,7 +11,7 @@ function Hero() {
   const images = [
     'https://i.imgur.com/Irpq7VF.png',
     'https://i.imgur.com/oPrMVAA.png',
-    'https://i.imgur.com/tlp4LeE.png'
+    'https://i.imgur.com/xcKxwNJ.png'
   ];
 
   useEffect(() => {
